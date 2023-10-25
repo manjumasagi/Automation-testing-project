@@ -1,8 +1,33 @@
 this is added by Manju Emp 101
 
-public static void main(string args[])
+
+@BeforeClass
+
+public void setup()
 {
-  int a=10;
-  int b=20;  
-  system.out.println("sum of  a and b is"+(a+b))
+
+WebDriver dr=new ChromeDriver();
+driver.manage.window.maximize();
+driver.manage.timeout.implicitlywait(Duration.ofSeconds(10));
+
+
 }
+
+@Test
+public void test()
+{
+
+int a=10,b=20;
+int c=a+b;
+system.out.println("sum of a and b is"+c)
+}
+
+@AfterClass
+public void teardown()
+{
+
+driver.close()
+
+}
+
+
