@@ -1,0 +1,5 @@
+19:05:25.448 [main] INFO  testCases.TC_001_AccountRegistrationTest (36) - **** Starting TC_001_AccountRegistrationTest **** 
+19:05:27.397 [main] INFO  testCases.TC_001_AccountRegistrationTest (36) - Clicked on My Account
+19:05:28.320 [main] INFO  testCases.TC_001_AccountRegistrationTest (36) - Clicked on Register
+19:05:28.321 [main] INFO  testCases.TC_001_AccountRegistrationTest (36) - Providing customers data
+19:05:31.507 [main] ERROR testCases.TC_001_AccountRegistrationTest (36) - Test failed
